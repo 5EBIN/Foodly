@@ -1,116 +1,55 @@
 # Foodly
 
+**Foodly – a next-generation food delivery platform that ensures fair wages for workers while minimizing costs for customers through smart algorithms.**
 
-Foodly – a next-generation food delivery platform that ensures fair wages for workers while minimizing costs for customers through smart algorithms.
+---
 
-Table of Contents
-Overview
+## Overview
 
-Features
+Foodly is an algorithm-driven food delivery platform designed to improve fairness and efficiency in the delivery ecosystem. It ensures:
 
-Architecture & Tech Stack
+- Fair wages for delivery workers  
+- Optimized delivery costs for customers  
+- Smart task assignment and routing  
 
-Setup & Installation
+This repository contains a **simulation version** for testing, academic evaluation, and demonstration purposes.
 
-Usage
+---
 
-Contributing
+## Features
 
-License
+- **Worker-focused:** Guarantees minimum wages and fair task distribution  
+- **Customer-focused:** Reduces overall delivery costs  
+- **Algorithmic efficiency:** Optimized order assignment and delivery routing  
+- **Mobile app:** React Native frontend for users  
+- **Admin panel:** Next.js dashboard for monitoring and management  
+- **Backend:** Supabase (PostgreSQL + Auth + API)  
 
-Overview
-Foodly is a fair and efficient food delivery platform designed to improve traditional delivery systems. Unlike conventional apps, Foodly ensures:
+---
 
-Minimum guaranteed wages for delivery workers
+## Tech Stack
 
-Optimized delivery costs for customers
+- **Frontend (Mobile App):** React Native  
+- **Admin Panel (Web):** Next.js  
+- **Backend:** Supabase  
+- **Algorithm Module:** Python-based smart assignment engine  
+- **Simulation Mode:** Test the platform without real transactions  
 
-Smart algorithmic routing and task assignment to balance fairness and efficiency
+---
 
-This project is a simulation version designed for academic purposes, demonstrating the potential of algorithm-driven fair delivery systems.
+## Setup & Installation
 
-Features
-Worker-friendly: Ensures fair wages with optimized task assignment
+### Prerequisites
 
-Customer-friendly: Reduces overall delivery costs
+- Node.js ≥ 18  
+- npm or yarn  
+- Python ≥ 3.10  
+- Supabase account  
 
-Algorithm-driven: Uses smart algorithms to match orders with delivery agents efficiently
+### Installation Steps
 
-Mobile app interface for users (React Native)
-
-Admin panel for monitoring and management (Next.js)
-
-Backend powered by Supabase
-
-Architecture & Tech Stack
-Frontend (Mobile App): React Native
-
-Admin Panel (Web): Next.js
-
-Backend: Supabase (PostgreSQL + Auth + API)
-
-Algorithm Module: Python-based smart assignment engine
-
-Simulation Mode: Allows testing the algorithm and app without real transactions
-
-Setup & Installation
-Prerequisites
-
-Node.js ≥ 18
-
-npm or yarn
-
-Python ≥ 3.10 (for algorithm module)
-
-Supabase account
-
-Steps
-
-Clone the repository:
+1. **Clone the repository:**  
+```bash
 git clone https://github.com/yourusername/foodly.git
 cd foodly
 
-Set up the backend:
-cd backend
-python -m venv venv
-source venv/bin/activate # On Windows: venv\Scripts\activate
-pip install -r requirements.txt
-
-Configure Supabase:
-
-Create a new Supabase project
-
-Update .env with Supabase credentials
-
-Set up the mobile app:
-cd ../mobile
-npm install
-npx expo start
-
-Set up the admin panel:
-cd ../admin
-npm install
-npm run dev
-
-Usage
-Launch the mobile app to simulate user orders
-
-Launch the admin panel to monitor delivery assignments
-
-Run the algorithm module to test optimized worker assignments and cost reduction
-
-Contributing
-Contributions are welcome! Please follow these steps:
-
-Fork the repo
-
-Create a new branch (git checkout -b feature-name)
-
-Commit your changes (git commit -m 'Add feature')
-
-Push to the branch (git push origin feature-name)
-
-Open a Pull Request
-
-License
-This project is licensed under the MIT License.

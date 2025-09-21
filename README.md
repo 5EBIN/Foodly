@@ -1,12 +1,20 @@
-# CN Project - Foodly Platform
+# Foodly - CN Project Platform
 
-A full-stack gadget-selling/work4food-style matching platform prototype featuring:
+**Foodly – a next-generation food delivery platform that ensures fair wages for workers while minimizing costs for customers through smart algorithms.**
 
-- **React Native/Expo** worker mobile app
-- **FastAPI** backend API
-- **PyTorch + GPyTorch** G-value prediction service
-- **Redis** caching layer
-- **Axios + React Query** for API communication
+---
+
+## Overview
+
+Foodly is an algorithm-driven food delivery platform designed to improve fairness and efficiency in the delivery ecosystem. It ensures:
+
+- Fair wages for delivery workers
+- Optimized delivery costs for customers
+- Smart task assignment and routing
+
+This repository contains a **full-stack prototype** featuring React Native mobile app, FastAPI backend, and PyTorch ML service for testing, academic evaluation, and demonstration purposes.
+
+---
 
 ## 🚀 Quick Start
 
@@ -39,6 +47,30 @@ A full-stack gadget-selling/work4food-style matching platform prototype featurin
 - **Frontend**: http://localhost:8081 (Expo)
 - **Backend API**: http://localhost:8000
 - **G-value Service**: http://localhost:5001
+
+---
+
+## Features
+
+- **Worker-focused:** Guarantees minimum wages and fair task distribution
+- **Customer-focused:** Reduces overall delivery costs
+- **Algorithmic efficiency:** Optimized order assignment and delivery routing
+- **Mobile app:** React Native frontend for workers
+- **ML-powered:** PyTorch + GPyTorch G-value prediction service
+- **Real-time:** FastAPI backend with Redis caching
+
+---
+
+## Tech Stack
+
+- **Frontend (Mobile App):** React Native/Expo
+- **Backend:** FastAPI + Python
+- **ML Service:** PyTorch + GPyTorch
+- **Caching:** Redis
+- **API Communication:** Axios + React Query
+- **Styling:** Tailwind CSS + NativeWind
+
+---
 
 ## 📱 Mobile App Features
 

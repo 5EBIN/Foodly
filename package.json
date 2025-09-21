@@ -1,0 +1,24 @@
+{
+  "name": "cn-project",
+  "version": "1.0.0",
+  "description": "CN Project - Full-Stack Gadget-Selling Platform Prototype",
+  "scripts": {
+    "start:frontend": "cd frontend/worker-app && npm start",
+    "start:backend": "cd backend && .\\venv\\Scripts\\Activate.ps1 && python app/main.py",
+    "start:gvalue": "cd g-value-service && .\\venv\\Scripts\\Activate.ps1 && python app/main.py",
+    "test:services": "python test_services.py",
+    "install:frontend": "cd frontend/worker-app && npm install",
+    "install:backend": "cd backend && python -m venv venv && .\\venv\\Scripts\\Activate.ps1 && pip install -r requirements.txt",
+    "install:gvalue": "cd g-value-service && python -m venv venv && .\\venv\\Scripts\\Activate.ps1 && pip install -r requirements.txt",
+    "install:all": "npm run install:frontend && npm run install:backend && npm run install:gvalue"
+  },
+  "keywords": [
+    "react-native",
+    "fastapi",
+    "pytorch",
+    "gaussian-process",
+    "worker-platform"
+  ],
+  "author": "CN Project Team",
+  "license": "MIT"
+}
